@@ -1,4 +1,4 @@
-module test
+module github.com/MikoGome/quicktest/
 
 go 1.18
 
