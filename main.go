@@ -1,11 +1,14 @@
 package main
 
 import (
-  "github.com/gofiber/fiber/v2"
+	"os"
+
+	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
-  app := fiber.New()
-  app.Static("/", "./index.html")
-  app.Listen(":3000")
+	app := fiber.New()
+	app.Static("/", "./index.html")
+	port := os.Getenv("PORT")
+	app.Listen(":" + port)
 }
