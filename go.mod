@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 module github.com/MikoGome/quicktest
+=======
+module github.com/MikoGome/quicktest/
+>>>>>>> 2def7eda1bf4181d8337bc2e49619f6ec7520a80
 
 go 1.18
 
